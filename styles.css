@@ -1,0 +1,123 @@
+/* var urile nosatre */
+:root{
+---blue:#141E4C;
+---white:#ffffff;
+---black:#000000;
+---hover-color:#FBB44C;
+---btn-color:#2BB686;
+---secondblue:#101D42;
+---3blue:#DFEDF5;
+}
+.body{
+    background-color: var(---blue);
+font-size: 16px;
+    margin: 0;
+    font-family: sans-serif;
+}
+/* nav bar */
+nav{
+    background-color: var(---blue);
+}
+.dropdown-menu{
+    background-color: var(---secondblue);
+}
+span{
+    color: var(---hover-color);
+}.container{
+ margin-top: 300px;
+ 
+}.img-logo{
+    width: 200px;
+    height: 75px;
+}
+.img{
+    width: 100px;
+    height: 40px;
+}.mycol{
+    align-content: end;
+}
+.mycontainer{
+    width: 1500px;
+    height:800px;
+    font-size: 100px;
+
+}.buton{
+    width: 260px;
+    height: 57px;
+    padding: 16px;
+    background-color:var(---btn-color);
+    color: var(---white);
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+    margin-top:none;
+    border: 2px solid var(---btn-color) ;
+}.buton:hover{
+    background-color: var(---blue);
+}
+a{
+    text-decoration: none;
+    color: var(---white);
+}.mynav{
+    background-color: var(---blue);
+    position:sticky;
+    width:100%;
+    height:auto;
+    margin-top: none;
+    margin: 0;
+}
+.container-1{
+    width: 100%;
+    height: 500px;
+    background-color: var(---white);
+    align-items: center;
+    justify-content: center;
+    display:flex;
+}.bar{
+    width: 100%;
+    height: 4px;
+    background-color:var(---btn-color);
+    border-radius: 10px;
+    box-sizing: border-box;
+}.place{
+    background-color: var(---hover-color);
+    color:var(---black);
+    padding: 4px;
+    box-sizing: border-box;
+    display: inline;
+    margin-left: 4px;
+}.card{
+    padding: 10px;
+    height: 124px;
+    width:100%;
+    border-radius: 7px;
+}
+/* footer */
+.footer{
+    height: 50px;
+}
+.container{
+    background-color: var(---blue);
+    text-align: center;}
+/* Stop footer  */
+/* ce este it school section */
+.section{
+    background-color: var(---3blue);
+    width:100%;
+    height: 820px;
+    box-sizing: border-box;
+    margin-top: none;
+}h2{
+    color: var(---secondblue);
+    padding: 25px;
+}.section-row{
+    width: 1200px;
+   margin-left: 350px;
+}
+/* Parteneri */
+.parteneri{
+    width: 100%;
+    height: 500px;
+    background-color: var(---white);
+}
